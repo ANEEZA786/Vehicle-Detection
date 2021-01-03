@@ -5,7 +5,7 @@ Vehicle detection, tracking and counting is the basic need of the society for tr
 To collect toll tax at motorway we have to detect the vehicles to collect reasonable toll from the particular vehicle according to its size. For this purpose, classify the small vehicles i.e. cars have less toll tax as compare to the large vehicles i.e. truck which is quite laborious work for human and there are maximum chances of errors.
 The solution of this problem is to classify the vehicles by using the supervised machine learning model. As data is labeled, that is weight, height/length, no. of passengers sits in particular vehicle & try to predict the upcoming vehicles on the basis of previous experience on which it is trained. That is ultimately helps to improve the economy of the country. 
 
-<h2><center>Details</center></h2>
+<center><h2>Details</h2></center>
 <h3>Pre Processing</h3
   At first, preprocessing of data is important which transform our raw data in a useful and efficient format. So, that machine learning model can easily parse it. As there many missing values are in our specific data in particular column “tire”.
   After analyzing the data drop the column which contains the useless information as in our scenario car’s id contain useless information which has no role to predict the toll tax of vehicle which ultimately helps to improve accuracy. So, we drop that particular column.
